@@ -16,7 +16,7 @@ lib/ 以下のファイルは自動生成された物です。これらを編集
 
 ## Use on the Web
 
-    <script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.9/lib/japanese-holidays.min.js"></script>
+    <script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.10/lib/japanese-holidays.min.js"></script>
 
 # 使い方
 
@@ -50,7 +50,7 @@ if(holiday) {
 
 On the web:
 ```javascript
-<script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.9/lib/japanese-holidays.min.js"></script>
+<script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.10/lib/japanese-holidays.min.js"></script>
 <script>
 var today = new Date();
 var holiday = JapaneseHolidays.isHoliday(today);
@@ -93,7 +93,7 @@ holidays.forEach(function(holiday) {
 
 On the web:
 ```javascript
-<script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.9/lib/japanese-holidays.min.js"></script>
+<script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.10/lib/japanese-holidays.min.js"></script>
 <script>
 var today = new Date();
 var holidays = JapaneseHolidays.getHolidaysOf( today.getFullYear() );
@@ -171,4 +171,7 @@ MIT
   * スポーツの日に対応しました
 * 2019-09-03 : 1.0.9
   * minify 版が壊れていたのを直しました
+* 2021-06-29 : 1.0.10
+  * 2020年のオリンピック特例に対応しました
+  * スポーツの日に対応しました
 
