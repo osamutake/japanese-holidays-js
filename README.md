@@ -16,7 +16,7 @@ lib/ 以下のファイルは自動生成された物です。これらを編集
 
 ## Use on the Web
 
-    <script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.10/lib/japanese-holidays.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/osamutake/japanese-holidays-js@v1.0.10/lib/japanese-holidays.min.js"></script>
 
 # 使い方
 
@@ -50,7 +50,7 @@ if(holiday) {
 
 On the web:
 ```javascript
-<script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.10/lib/japanese-holidays.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/osamutake/japanese-holidays-js@v1.0.10/lib/japanese-holidays.min.js"></script>
 <script>
 var today = new Date();
 var holiday = JapaneseHolidays.isHoliday(today);
@@ -93,7 +93,7 @@ holidays.forEach(function(holiday) {
 
 On the web:
 ```javascript
-<script src="https://cdn.rawgit.com/osamutake/japanese-holidays-js/v1.0.10/lib/japanese-holidays.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/osamutake/japanese-holidays-js@v1.0.10/lib/japanese-holidays.min.js"></script>
 <script>
 var today = new Date();
 var holidays = JapaneseHolidays.getHolidaysOf( today.getFullYear() );
